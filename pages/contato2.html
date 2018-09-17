@@ -1,78 +1,76 @@
 <html lang="pt-br">
-<head>
-	<meta charset="UTF-8">
-	<title>Paradise Palace Hotel</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
-     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		 <link href="../layout/styles/contato2.css" rel="stylesheet" type="text/css" media="all">
-
-		 <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<head>
+		<meta charset="UTF-8">
+		<title>Paradise Palace Hotel</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="../layout/styles/contato2.css" rel="stylesheet" type="text/css" media="all">
+		<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		<html xmlns="http://www.w3.org/1999/xhtml"></html>
-    
-</head>
-<body id="top">
+	</head>
+	<body id="top">
 
-        <div class="bgded overlay light" style="height: 460px;;background-image:url('../images/demo/backgrounds/01.png');"> 
-            <div class="wrapper row1">
-              <header id="header" class="hoc clear"> 
-                <div id="logo" class="fl_left">
-                  <h1><a href="../index.html">Hotel Paradise Palace</a></h1>
-                </div>
-                <nav id="mainav" class="fl_right"style="display: contents;width: 50%;">
-                  <ul class="clear">
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a class="drop" href="#">Paginas</a>
-                      <ul>
-                        <li><a href="gallery.html">Galeria</a></li>
-                      </ul>
-                    </li>
-                    <li class="active"><a href="contato.html">Contato</a></li>
-                  </ul>
-                </nav>
-              </header>
-            </div>
-            <div id="breadcrumb" class="hoc clear"></div>
-          </div></br>
+		<div class="bgded overlay light" style="height: 460px;;background-image:url('../images/demo/backgrounds/01.png');"> 
+				<div class="wrapper row1">
+					<header id="header" class="hoc clear"> 
+						<div id="logo" class="fl_left">
+							<h1><a href="../index.html">Hotel Paradise Palace</a></h1>
+						</div>
+						<nav id="mainav" class="fl_right"style="display: contents;width: 50%;">
+							<ul class="clear">
+								<li><a href="../index.html">Home</a></li>
+								<li><a class="drop" href="#">Paginas</a>
+									<ul>
+										<li><a href="gallery.html">Galeria</a></li>
+									</ul>
+								</li>
+								<li class="active"><a href="contato.html">Contato</a></li>
+							</ul>
+						</nav>
+					</header>
+				</div>
+				<div id="breadcrumb" class="hoc clear"></div>
+		</div></br>
 
-	<section class="container">
-		<div class="row">
-		<h3 class="center-align">CONTATO</h3>
-			<article class="col s6 offset-s3">
-				<form method="POST" action="formulario-contacto.php">
-					<div class="input-field">
-						<i class="material-icons prefix">perm_identity</i>
-						<label for="nombre">Nome</label>
-						<input type="text" name="nombre" required>
-					</div>
+		<section class="container">
+			<div class="row">
+			<h3 class="center-align">CONTATO</h3>
+				<article class="col s6 offset-s3">
+					<form method="POST" action="formulario-contacto.php">
+						<div class="input-field">
+							<i class="material-icons prefix">perm_identity</i>
+							<label for="nombre">Nome</label>
+							<input type="text" name="nombre" required>
+						</div>
 
-					<div class="input-field">
-						<i class="material-icons prefix">person_pin</i>
-						<label for="apellido">Sobrenome</label>
-						<input type="text" name="apellido" required>
-					</div>
-					
-					<div class="input-field">
-						<i class="material-icons prefix">email</i>
-						<label for="email">Email</label>
-						<input type="email" name="email" required>
-					</div>
+						<div class="input-field">
+							<i class="material-icons prefix">person_pin</i>
+							<label for="apellido">Sobrenome</label>
+							<input type="text" name="apellido" required>
+						</div>
+						
+						<div class="input-field">
+							<i class="material-icons prefix">email</i>
+							<label for="email">Email</label>
+							<input type="email" name="email" required>
+						</div>
 
-					<div class="input-field">
-						<i class="material-icons prefix">mode_edit</i>
-						<label for="mensaje">Mensagem</label>
-						<textarea name="mensaje" id="" rows="10" class="materialize-textarea"  length="140" required></textarea>
-					</div>
-					
-					<p class="center-align">
-						<button class="waves-effect waves-light btn" type="submit" style="padding: 2px 2px 2px 2px;" ><i class="material-icons right">send</i>enviar</button>
-					</p>
+						<div class="input-field">
+							<i class="material-icons prefix">mode_edit</i>
+							<label for="mensaje">Mensagem</label>
+							<textarea name="mensaje" id="" rows="10" class="materialize-textarea"  length="140" required></textarea>
+						</div>
+						
+						<p class="center-align">
+							<button class="waves-effect waves-light btn" type="submit" style="padding: 2px 2px 2px 2px;" ><i class="material-icons right">send</i>enviar</button>
+						</p>
 
-				</form>
+					</form>
 
-			</article>
-		</div>
-    </section>
+				</article>
+			</div>
+		</section>
     
     <!--MAPA-->
     <div class="maps" id="map"></div>
@@ -85,5 +83,5 @@
 <!--****************************************************************************************************************-->
 	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
-</body>
+	</body>
 </html>
