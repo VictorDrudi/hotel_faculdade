@@ -93,7 +93,7 @@
     
     .overlay{color:#FFFFFF; background-color:inherit;}
     .overlay::after{color:inherit; background-color:rgba(0,0,0,.8);}
-    .overlay.light::after{background-color:rgba(0,0,0,.55);}
+    .overlay.light::after{background-color:rgba(0,0,0,0.36);}
     
     .btn, .btn.inverse:hover{color:#FFFFFF; background-color:#CF9C67; border-color:#CF9C67;}
     .btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
@@ -103,7 +103,7 @@
     
     /* Rows */
     .row0, .row0 a{color:#FFFFFF;}
-    .row1{color:#FFFFFF; background-color:rgba(0,0,0,.2);}
+    .row1{color:#FFFFFF; background-color:rgba(0,0,0,0);}
     .row2{color:#FFFFFF; background-color:#222222;}
     .row3{color:#7A7A7A; background-color:#FFFFFF;}
     .row4{color:#7A7A7A; background-color:#F7F7F7;}
@@ -130,7 +130,7 @@
     /* Navigation */
     #mainav li a{color:inherit;}
     #mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#CF9C67; background-color:inherit;}
-    #mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(0,0,0,.2); border-color:rgba(0,0,0,.2);}
+    #mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(0,0,0,0.2); border-color:rgba(0,0,0,0.2);}
     #mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color:#CF9C67;}
     #mainav form select{color:#FFFFFF; background-color:#000000;}
     #breadcrumb a{color:inherit; background-color:inherit;}
