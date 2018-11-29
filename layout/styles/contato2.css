@@ -129,7 +129,7 @@
     
     /* Navigation */
     #mainav li a{color:inherit;}
-    #mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#CF9C67; background-color:inherit;}
+    #mainav .active a, #mainav a:hover, #mainav li:hover > a{color:inherit; background-color:inherit;}
     #mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(0,0,0,0.2); border-color:rgba(0,0,0,0.2);}
     #mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color:#CF9C67;}
     #mainav form select{color:#FFFFFF; background-color:#000000;}
