@@ -1,3 +1,0 @@
-- A pasta deve ser extraida dentro de um pasta chamado "projeto".
-- A pasta "projeto" deve estar dentro de uma pasta chamada "Dev".
-- A pasta "dev" dentro da unidade "C" do computador.
